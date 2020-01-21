@@ -12,7 +12,7 @@ namespace Microsoft.AspNetCore.Builder
         /// Adds middleware for redirecting with out WWW Requests to WWW.
         /// </summary>
         /// <param name="app">The <see cref="IApplicationBuilder"/> instance this method extends.</param>
-        /// <returns>The <see cref="IApplicationBuilder"/> for HttpsRedirection.</returns>
+        /// <returns>The <see cref="IApplicationBuilder"/> for WWWRedirection.</returns>
         public static IApplicationBuilder UseWwwRedirection(this IApplicationBuilder app)
         {
             if (app == null)
